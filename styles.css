@@ -1,0 +1,155 @@
+html,
+body,
+#container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+  color: #3bacb6;
+  grid-column: 12 span;
+}
+
+header {
+  grid-row: 1 span;
+  grid-column: 12 span;
+  background-color: #ffeead;
+}
+
+aside {
+  background-color: #3bacb6;
+  grid-row: 10 span;
+  grid-column: 3 span;
+}
+
+main {
+  background-color: #82dbd8;
+  grid-row: 10 span;
+  grid-column: 6 span;
+}
+
+aside table {
+  background-color: #3bacb6;
+  grid-row: 10 span;
+  grid-column: 3 span;
+}
+
+footer {
+  background-color: #b3e8e5;
+  grid-row: 1 span;
+  grid-column: 12 span;
+  color: #3bacb6;
+  font-size: small;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #3bacb6;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: center;
+}
+
+table {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  grid-column: 12 span;
+  grid-row: 11 span;
+  font-size: smaller;
+}
+
+tr:nth-child(even) {
+  background-color: #ffeead;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffcb5cd0;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #96ceb4;
+  color: white;
+}
+
+hr {
+  border: #ffeead;
+  background-color: #ffeead;
+  height: 2px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+td img {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  width: 20px;
+  height: 20px;
+}
+
+span div {
+  color: #126d75;
+  font-weight: bold;
+}
+
+p {
+  color: #126d75;
+  font-style: italic;
+  font-size: x-small;
+}
+
+#price {
+  font-size: large;
+  padding: 15px;
+}
+
+.aside img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.top {
+  margin-bottom: 1px;
+}
+
+.bottom {
+  margin-top: 1px;
+}
+
+#patty img,
+#cheese img,
+#tomato img,
+#lettuce img {
+  margin-bottom: 1px;
+  margin-top: 1px;
+}

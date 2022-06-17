@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Krabby Patty</title>
+    <!-- Icon Support -->
+    <link rel="icon" href="img/hamburger.png" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JS -->
+    <!-- <script src="site.js"></script> -->
+</head>
+
+<body>
+<div id="container">
+
+    <header class="flex-center-top">
+
+    <h1 class="flex-center-top">Mr Krab's Krabby Patties</h1>
+
+    </header>
+
+    <aside class="flex-center gif">
+        <div class="aside">
+            <img src="img/WuUU.gif" alt="SpongeBob loves Kraby Patties">
+        </div>
+    </aside>
+    
+
+    <main class="flex-center-top">
+
+ <span class="flex-center-top">    
+    <div  id="price"> Total Price: </div>
+</span>
+
+    <Table class="flex-center-top">
+        <tr>
+            <th>Ingredient</th>
+            <th>Add</th>
+            <th>Remove</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/pattyicon.png" alt=" "></img>
+                Regular Patty</td>
+            <td><button id="add-patty" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-patty" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/pattyicon.png" alt=" "></img>
+                Vegeterian Patty</td>
+            <td><button id="add-veg" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-veg" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/pattyicon.png" alt=" "></img>
+                Vegan Patty</td>
+            <td><button id="add-vegan" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-vegan" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/tomatoicon.png" alt=" "></img>
+                Tomato</td>
+            <td><button id="add-tomato" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-tomato" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/lettuceicon.png" alt=" "></img>
+                Lettuce</td>
+            <td><button id="add-lettuce" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-lettuce" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="img/cheeseicon.png" alt=" "></img>
+                Cheese</td>
+            <td><button id="add-cheese" class="flex-center" onclick="add(id)">+</button></td>
+            <td><button id="remove-cheese" class="flex-center" onclick="remove(id)">-</button></td>
+        </tr>
+        
+       
+    </Table>
+</br>
+
+<Table class="flex-center">
+    <tr>
+        <th>Ingredient</th>
+        <th>Price</th>
+        </tr>
+    <tr>
+        <td>All Patties</td>
+        <td>4.0 NIS</td>
+    </tr>
+    <tr>
+        <td>Sides</td>
+        <td>1.0 NIS</td>
+    </tr>
+</Table>
+
+<p>Maximum 3 patties or 3 of each sides</p>
+
+
+
+</main>
+
+<aside class="flex-center">
+
+    <div class="flex-center-top top" >
+        <img src="img/upper.png">
+    </div>
+    
+    <div  class="flex-center-top" id="lettuce">    
+            
+    </div>
+
+    <div  class="flex-center-top" id="tomato">    
+            
+    </div>
+
+    <div  class="flex-center-top" id="cheese">    
+            
+    </div>
+
+    <div  class="flex-center-top" id="patty">    
+            
+    </div>
+
+    <div  class="flex-center-top bottom">    
+        <img src="img/lower.png">     
+    </div>     
+</aside>
+
+<footer class="flex-center">All rights reserved to Idil &#169;</footer>
+</div>
+<script src="site.js"></script>
+
+</body>
+
+</html>
